@@ -45,7 +45,7 @@ function topFunction() {
  
 
   // Bottom Section Service Slider Activaton Script (Homepage)
-  $(".packageCategoryCarousel").owlCarousel({
+  $(".scrviceTopslider").owlCarousel({
     autoplay: true, 
     autoplayHoverPause: true,
     smartSpeed: 550,
@@ -68,7 +68,7 @@ function topFunction() {
     } 
   });
  
-  $(".packageCarousel").owlCarousel({
+  $(".logoslider").owlCarousel({
     autoplay: true, 
     autoplayHoverPause: true,
     smartSpeed: 550,
@@ -82,16 +82,16 @@ function topFunction() {
     dots: true,
     responsiveClass: true, 
     responsive: { 
-        0: { items: 1, margin: 8 },
-        576: { items: 2, margin: 10  },
-        768: { items: 2, margin: 15  },
-        992: { items: 2, margin: 15  }, 
-        1200: { items: 3, margin: 15 },  
+        0: { items: 2, margin: 8 },
+        576: { items: 3, margin: 10  },
+        768: { items: 4, margin: 15  },
+        992: { items: 6, margin: 15  }, 
+        1200: { items: 6, margin: 15 },  
     } 
   });
 
   // Bottom Section Service Slider Activaton Script (Homepage)
-  $(".howBookCarousel").owlCarousel({
+  $(".blogsCarousel").owlCarousel({
     autoplay: true, 
     autoplayHoverPause: true,
     smartSpeed: 550,
@@ -116,51 +116,6 @@ function topFunction() {
  
  
 
-   // Blog Slider Activaton Script (Homepage)
-   $(".blogCarosel").owlCarousel({
-    autoplay: true,
-    autoplayHoverPause: true,
-    smartSpeed: 550,
-    responsiveClass: true,
-    autoplayTimeout: 5000,
-    autoplaySpeed: 3000,
-    loop: true,
-    margin: 15, 
-    items: 3,
-    nav: false,
-    dots: true,
-    responsiveClass: true,
-    responsive: {
-        0: { items: 1, },
-        576: { items: 2 },
-        768: { items: 2 },
-        992: { items: 3 },
-        1200: { items: 3 }, 
-    },
-});
-    
- 
-  $(".testimonialSlider").owlCarousel({
-    autoplay: true, 
-    autoplayHoverPause: true,
-    smartSpeed: 550,
-    responsiveClass: true,
-    autoplayTimeout: 10000,
-    autoplaySpeed: 3000,
-    loop: true,
-    margin: 15,
-    items: 1.35,
-    nav: true,
-    dots: false, 
-    responsiveClass: true, 
-    responsive: { 
-        0: { items: 1 },
-        576: { items: 1  },
-        768: { items: 2 },
-        992: { items: 2 }, 
-        1200: { items: 3 },  
-    } 
-  });
   
    
   

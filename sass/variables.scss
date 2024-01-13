@@ -117,7 +117,7 @@ ul {
     background-color: var(--brand);border-color: var(--brand);color: var(--white);  
 
     &:hover, &:focus, &:active {
-        background-color: var(--dark);border-color: var(--dark);
+        background-color: var(--brand);border-color: var(--brand);
     } 
 }
 .btn-outline-primary {
@@ -135,11 +135,11 @@ ul {
 .btn-white {
     background-color: #fff;
     border-color: #fff;
-    color: var(--dark);
+    color: var(--brand);
     
     &:hover, &:focus {
-        background-color: var(--brand);
-        border-color: var(--brand);color: var(--white);
+        background-color: var(--grey);
+        border-color: var(--dark);color: var(--white);
         svg { color: var(--white); }
     } 
 }

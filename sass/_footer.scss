@@ -35,17 +35,17 @@ footer {
         a {
             width: 2.5rem;
             height: 2.5rem;border-radius: 3px;
-            background-color: var(--brand);
-            color: var(--white);
+            background-color: var(--white);
+            color: var(--dark);
 
             svg { width: 1.125rem;height: 1.125rem; 
                 path {
-                    fill: var(--white);
+                    fill: var(--dark);
                 }
             }
 
             &:hover, &:focus {
-                background-color: var(--dark);color: var(--white);
+                background-color: var(--brand);color: var(--white);
             }
         }
 
