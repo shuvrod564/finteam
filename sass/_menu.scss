@@ -17,11 +17,12 @@
 .scrolled-up {
     transform: translateY(0);
     transition: all 0.3s ease-in-out;
-   
+    background-color: var(--dark);
     
     .navbar-brand img { max-height: 5rem; }
 }
-.navbar {    
+.navbar {   
+    padding: 1rem 0; 
     .nav-item {  
         .nav-link {
             font-size: 1rem;  

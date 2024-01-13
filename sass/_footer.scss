@@ -6,8 +6,7 @@
         width: calc(100% - 2rem);padding-left: .5rem;
     }
 }
-footer {    
-    background-color: #EAEAEA;
+footer {     
     padding: 3rem 0 0rem 0;
  
     a { 
@@ -23,15 +22,15 @@ footer {
     .border-top { border-color: rgba(255, 255, 255, 0.3) !important;  }
 
    .copyright__wrapp {
-        border-top: 1px solid var(--border-color);
+        border-top: 1px solid #fff3 !important;
     }
  
 }
 
 
 .social__links {
-    li {
-        margin-bottom: 0; 
+    max-width: 112px;
+    li { 
         a {
             width: 2.5rem;
             height: 2.5rem;border-radius: 3px;
@@ -47,38 +46,22 @@ footer {
             &:hover, &:focus {
                 background-color: var(--brand);color: var(--white);
             }
-        }
-
-        &:not(:first-child) {
-            margin-left: .5rem;
-        }
+        } 
     } 
 }
 
 
+
 /*---------------------- Back to Top Css --------------*/ 
-.backTop {
-    position: fixed;
-    bottom: 0rem;
-    right: .5rem;
+.backTop { 
+    bottom: 3rem;
+    right: 2rem;
     width: 3rem;min-height: auto;
-    height: 3.5rem;padding: .1rem 0 0 0;
-    background-color: var(--white);
-    z-index: 999;border-radius: 2rem 2rem 0 0;
-    display: none;border: 2px solid var(--white);border-bottom: 0;
-    justify-content: center; 
-
-    ._icon {
-        width: 2.5rem;height: 2.5rem;border-radius: 50%;color: var(--white);
-        background-color: var(--brand);font-size: 1.45rem;margin-bottom: .5rem;
-        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0iZmVhdGhlciBmZWF0aGVyLWNoZXZyb24tdXAiPjxwb2x5bGluZSBwb2ludHM9IjE4IDE1IDEyIDkgNiAxNSI+PC9wb2x5bGluZT48L3N2Zz4=);
-        background-repeat: no-repeat;
-        background-size: 1.75rem;
-        background-position: center center;
-         
-        &:hover { background-color: var(--yellow); }
-    }
-
+    height: 3rem; 
+    background-color: var(--brand);
+    z-index: 999; 
+    display: none;border: 2px solid var(--white); 
+ 
     &:hover, &:focus, &:active { 
         background-color: var(--dark); 
     }
@@ -87,19 +70,22 @@ footer {
     }
 }
  
- 
- 
-
-@media (max-width: 767.99px) {
-    footer {
-        .logo__main { max-height: 6rem;width: auto; }
-        .logo { max-height: 4rem;width: auto; }
-    }
-}
-
 @media (max-width: 575.99px) {
     footer {
-        .logo__main { max-height: 5rem;width: auto;margin-bottom: 1rem; }
-        .logo { max-height: 3rem;width: auto; }
+        padding: 1rem 0 0rem 0;
+         
+        .logo img { max-height: 6rem;width: auto; }
+
+        .contact__list {
+            img {
+                height: auto;
+                width: 1.5rem;
+            }
+            .lead { 
+                font-size: 1.067rem !important;font-weight: 500 !important;
+            }
+        }
     }
 }
+ 
+ 

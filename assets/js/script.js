@@ -17,7 +17,9 @@ function topFunction() {
 
 
 (function ($) {
-  $('body').css('padding-top', $('.navbar').outerHeight() + 'px')
+ 
+
+  // $('body').css('padding-top', $('.navbar').outerHeight() + 'px')
   // detect scroll top or down
   if ($('.smart-scroll').length > 0) { // check if element exists
     var last_scroll_top = 0;
@@ -61,10 +63,10 @@ function topFunction() {
     responsive: { 
         0: { items: 1, margin: 8 },
         576: { items: 2, margin: 10  },
-        768: { items: 2, margin: 15, nav:true  },
-        992: { items: 2, margin: 15, nav:true  }, 
-        1200: { items: 3, margin: 15, nav:true }, 
-        1400: { items: 4, nav:true }, 
+        768: { items: 2, margin: 15,  },
+        992: { items: 2, margin: 15,  }, 
+        1200: { items: 3, margin: 15, }, 
+        1400: { items: 4, }, 
     } 
   });
  
@@ -85,8 +87,9 @@ function topFunction() {
         0: { items: 2, margin: 8 },
         576: { items: 3, margin: 10  },
         768: { items: 4, margin: 15  },
-        992: { items: 6, margin: 15  }, 
-        1200: { items: 6, margin: 15 },  
+        992: { items: 4, margin: 15  }, 
+        1200: { items: 5, margin: 15 },  
+        1400: { items: 6, margin: 15 },  
     } 
   });
 
@@ -105,9 +108,9 @@ function topFunction() {
     dots: true,
     responsiveClass: true, 
     responsive: { 
-        0: { items: 2, margin: 8 },
-        576: { items: 2, margin: 10  },
-        768: { items: 3, margin: 15 },
+        0: { items: 1, margin: 8 },
+        576: { items: 1, margin: 10  },
+        768: { items: 2, margin: 15 },
         992: { items: 2, margin: 15 }, 
         1200: { items: 3, margin: 15 }, 
         1400: { items: 3 }, 

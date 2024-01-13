@@ -1,77 +1,51 @@
      
     <!-- navigation start --> 
-    <nav class="navbar navbar-expand-lg smart-scroll postion-relative py-4" id="mainNav">
+    <nav class="navbar navbar-expand-lg smart-scroll postion-relative" id="mainNav">
         <div class="container">   
             <a href="<?php echo $base_url;?>" class="navbar-brand p-0 m-0 d-inline-block" aria-label="Kerala Cruises">
                 <img src="<?php echo $base_url;?>assets/images/logo-01.svg" width="166" height="36" class="w-auto" alt="logo">
             </a>
             <ul class="navbar-nav d-none d-lg-flex align-items-center">    
-                <li class="nav-item dropdown "> 
+                <li class="nav-item"> 
                     <a href="#" class="nav-link">    
                         About Us 
-                    </a> 
-                    <ul class="dropdown-menu border-0 bg-white" aria-labelledby="drop1"> 
-                        <!-- <li><a href="<?php echo $base_url;?>deluxe-houseboats.php" class="dropdown-item fw-medium">Delux Houseboats</a></li>
-                        <li><a href="<?php echo $base_url;?>premium-houseboats.php" class="dropdown-item fw-medium">Premium Houseboats</a></li>
-                        <li><a href="<?php echo $base_url;?>semi-luxury-houseboats.php" class="dropdown-item fw-medium">Semi Luxury Houseboats</a></li>
-                        <li><a href="<?php echo $base_url;?>luxury-houseboats.php" class="dropdown-item fw-medium">Luxury Houseboats</a></li>
-                        <li><a href="<?php echo $base_url;?>super-luxury-houseboat.php" class="dropdown-item fw-medium">Super Luxury Houseboat</a></li>  -->
-                    </ul> 
+                    </a>  
                 </li>         
-                <li class="nav-item dropdown ms-lg-3"> 
+                <li class="nav-item dropdown ms-lg-1 ms-xl-4"> 
                     <a href="#" class="nav-link">
                         Services 
                     </a> 
                     <ul class="dropdown-menu border-0 bg-white" aria-labelledby="drop1"> 
-                        <!-- <li><a href="<?php echo $base_url;?>honeymoon-cruise.php" class="dropdown-item fw-medium">Honeymoon Cruise</a></li>
-                        <li><a href="<?php echo $base_url;?>overnight-cruise.php" class="dropdown-item fw-medium">Overnight Cruise</a></li>
-                        <li><a href="<?php echo $base_url;?>morning-cruise.php" class="dropdown-item fw-medium">Morning Cruise</a></li>
-                        <li><a href="<?php echo $base_url;?>night-cruise.php" class="dropdown-item fw-medium">Night Cruise</a></li>
-                        <li><a href="<?php echo $base_url;?>day-cruise.php" class="dropdown-item fw-medium">Day Cruise</a></li>
-                        <li><a href="<?php echo $base_url;?>wedding-cruise.php" class="dropdown-item fw-medium">Wedding Cruise</a></li>
-                        <li><a href="<?php echo $base_url;?>birthday-cruise.php" class="dropdown-item fw-medium">Birthday Cruise</a></li>
-                        <li><a href="<?php echo $base_url;?>family-cruise.php" class="dropdown-item fw-medium">Family Cruise</a></li>
-                        <li><a href="<?php echo $base_url;?>bachelor-friendly-cruise.php" class="dropdown-item fw-medium">Bachelor Friendly Cruise </a></li> -->
+                        <li class="mb-2"><a href="#" class="dropdown-item fw-medium">Accounting & Bookkeeping</a></li>
+                        <li class="mb-2"><a href="#" class="dropdown-item fw-medium">Business Start-Up & Business Development</a></li>
+                        <li class="mb-2"><a href="#" class="dropdown-item fw-medium">Company Formation</a></li>
+                        <li class="mb-2"><a href="#" class="dropdown-item fw-medium">Payroll Management</a></li>
+                        <li class="mb-2"><a href="#" class="dropdown-item fw-medium">Financial Analysis & Business Advisory Services</a></li>
+                        <li class="mb-2"><a href="#" class="dropdown-item fw-medium">VAT Services</a></li>
+                        <li class="mb-2"><a href="#" class="dropdown-item fw-medium">Tax Planning and Preparation</a></li>
+                        <li class="mb-2"><a href="#" class="dropdown-item fw-medium">Auditing Services</a></li> 
                     </ul> 
                 </li>         
-                <li class="nav-item dropdown ms-lg-3"> 
+                <li class="nav-item ms-lg-1 ms-xl-4"> 
                     <a href="#" class="nav-link"> 
                         Your partner 
-                    </a> 
-                    <ul class="dropdown-menu border-0 bg-white" aria-labelledby="drop1"> 
-                        <!-- <li><a href="<?php echo $base_url;?>houseboat-alleppey.php" class="dropdown-item fw-medium">Houseboat in Alleppey</a></li>
-                        <li><a href="<?php echo $base_url;?>kayaking-alleppey.php" class="dropdown-item fw-medium">Kayaking in Alleppey</a></li>
-                        <li><a href="<?php echo $base_url;?>shikara-ride-alleppey.php" class="dropdown-item fw-medium">Shikara Ride in Alleppey</a></li>
-                        <li><a href="<?php echo $base_url;?>canoeing-alleppey.php" class="dropdown-item fw-medium"> Canoeing in Alleppey</a></li>  -->
-                    </ul> 
+                    </a>  
                 </li>       
-                <li class="nav-item dropdown ms-lg-3"> 
+                <li class="nav-item ms-lg-1 ms-xl-4"> 
                     <a href="#" class="nav-link"> 
                         Our expertise 
-                    </a> 
-                    <ul class="dropdown-menu border-0 bg-white" aria-labelledby="drop1"> 
-                        <!-- <li><a href="<?php echo $base_url;?>houseboat-alleppey.php" class="dropdown-item fw-medium">Houseboat in Alleppey</a></li>
-                        <li><a href="<?php echo $base_url;?>kayaking-alleppey.php" class="dropdown-item fw-medium">Kayaking in Alleppey</a></li>
-                        <li><a href="<?php echo $base_url;?>shikara-ride-alleppey.php" class="dropdown-item fw-medium">Shikara Ride in Alleppey</a></li>
-                        <li><a href="<?php echo $base_url;?>canoeing-alleppey.php" class="dropdown-item fw-medium"> Canoeing in Alleppey</a></li>  -->
-                    </ul> 
+                    </a>  
                 </li>       
-                <li class="nav-item dropdown ms-lg-3"> 
+                <li class="nav-item ms-lg-1 ms-xl-4"> 
                     <a href="#" class="nav-link"> 
                         Contact us 
-                    </a> 
-                    <ul class="dropdown-menu border-0 bg-white" aria-labelledby="drop1"> 
-                        <!-- <li><a href="<?php echo $base_url;?>houseboat-alleppey.php" class="dropdown-item fw-medium">Houseboat in Alleppey</a></li>
-                        <li><a href="<?php echo $base_url;?>kayaking-alleppey.php" class="dropdown-item fw-medium">Kayaking in Alleppey</a></li>
-                        <li><a href="<?php echo $base_url;?>shikara-ride-alleppey.php" class="dropdown-item fw-medium">Shikara Ride in Alleppey</a></li>
-                        <li><a href="<?php echo $base_url;?>canoeing-alleppey.php" class="dropdown-item fw-medium"> Canoeing in Alleppey</a></li>  -->
-                    </ul> 
+                    </a>  
                 </li>       
             </ul>
             
             <div class="d-inline-flex align-items-center">
 
-                <a href="#" class="nav-link btn btn-white height rounded-pill d-none d-sm-inline-flex" aria-label="Enquiry Now">
+                <a href="#" class="nav-link btn btn-white px-4 height rounded-pill d-none d-sm-inline-flex" aria-label="Enquiry Now">
                     Enquiry Now
                 </a>  
                 
@@ -94,22 +68,25 @@
         <div class="offcanvas-body px-0">
         <ul class="links__list">
                 <li><a href="<?php echo $base_url;?>">About Us</a></li>
-                <li><a href="<?php echo $base_url;?>about.php">Services</a></li>   
+                <li><a href="<?php echo $base_url;?>about.php">About Us</a></li>   
                 <li> 
                     <a class="btn__link collapsed" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
-                        our partner 
+                        Services
                     </a>
                     <ul class="collapse" id="collapse1"> 
-                        <!-- <li><a href="<?php echo $base_url;?>deluxe-houseboats.php">Delux Houseboats</a></li>
-                        <li><a href="<?php echo $base_url;?>premium-houseboats.php">Premium Houseboats</a></li>
-                        <li><a href="<?php echo $base_url;?>semi-luxury-houseboats.php">Semi Luxury Houseboats</a></li>
-                        <li><a href="<?php echo $base_url;?>luxury-houseboats.php">Luxury Houseboats</a></li>
-                        <li><a href="<?php echo $base_url;?>super-luxury-houseboat.php">Super Luxury Houseboat</a></li>  -->
+                        <li class="mb-2"><a href="#">Accounting & Bookkeeping</a></li>
+                        <li class="mb-2"><a href="#">Business Start-Up & Business Development</a></li>
+                        <li class="mb-2"><a href="#">Company Formation</a></li>
+                        <li class="mb-2"><a href="#">Payroll Management</a></li>
+                        <li class="mb-2"><a href="#">Financial Analysis & Business Advisory Services</a></li>
+                        <li class="mb-2"><a href="#">VAT Services</a></li>
+                        <li class="mb-2"><a href="#">Tax Planning and Preparation</a></li>
+                        <li class="mb-2"><a href="#">Auditing Services</a></li> 
                     </ul>
                 </li> 
                 <li> 
                     <a class="btn__link collapsed" data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2">
-                        YOur expertise
+                        Our expertise
                     </a>
                     <ul class="collapse" id="collapse2"> 
                         <!-- <li><a href="<?php echo $base_url;?>honeymoon-cruise.php" class="dropdown-item fw-medium">Honeymoon Cruise</a></li>

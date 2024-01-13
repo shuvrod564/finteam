@@ -51,7 +51,7 @@
 
 
 .header__wraper{
-    min-height: 100vh;
+    min-height: 80vh;
     padding-top: 7rem;
     padding-bottom: 3rem;
     .fs-1{
@@ -62,53 +62,76 @@
 }
 
 
+.scrviceTopslider {
+    .owl-stage {
+        display: flex;
+        .owl-item {
+            display: flex;padding: 1px;
+        }
+    }
+}
+ 
+.service__card {
+    background-color: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 7px !important;
+    width: 100%;
 
-.service__wraper{
-    
-    .service__card {
-        background-color: #FFFFFF;
-        border: 1px solid #E3E3E3;
-        border-radius: 7px !important;
-        height:25rem;
-        overflow-y: auto;
+    .icon__box{
+        &::after {
+            content: '';width: 3rem;height: 3rem;background-color: #019E5724;
+            border-radius: 50%;position: absolute;top: -.75rem;left: -.75rem;transition: all .3s ease-in-out;
+        }
         .icon{
             width: 2.5rem; 
         }
+    }  
 
-        &:hover {
-            background-color: #019E5724;
-            color: var(--dark);  
-            
-        }
-  
-    }
-    .icon__box{
-        width: 3rem;
-        height: 3rem;
+    &:hover {
         background-color: #019E5724;
-        border-radius: 50%;
-    }      
-    
-}
-
-.section__wraper{
-        .btn__service{
-            background-color: var(--brand);
-            color: #fff;
-            border: var(--brand);
-            &:hover {
-                background-color: #fff !important;
-                color: var(--brand);
-            } 
+        color: var(--dark);  
+        
+        .icon__box {
+            &::after {
+                width: 4rem;height: 4rem;
+            }
         }
-    .height{
-        min-height: 4.5rem;
-        width: 17rem;
-    }
-   
+    } 
 }
 
+.brand__logo { 
+    mix-blend-mode: luminosity;filter: grayscale(100%);
 
-.update__card { 
-    border: 1px solid #C4C4C4;
+    &:hover { mix-blend-mode: normal;filter: none; }
+}
+
+.promo__wrapper{
+    .btn__service{
+        background-color: var(--brand);
+        color: #fff;
+        border: var(--brand);
+        &:hover {
+            background-color: #fff !important;
+            color: var(--brand);
+        } 
+    }
+    .height{
+        min-height: 4.5rem;width: 45%;
+        // width: 17rem;
+    } 
+}
+@media (max-width: 575px) {
+    .promo__wrapper .height {
+        min-height: 3.5rem;
+        width: auto;
+    }
+}
+
+.ellipsis-3 { 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
 }
