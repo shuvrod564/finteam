@@ -92,7 +92,7 @@ function topFunction() {
         1400: { items: 6, margin: 15 },  
     } 
   });
-
+  
   // Bottom Section Service Slider Activaton Script (Homepage)
   $(".blogsCarousel").owlCarousel({
     autoplay: true, 
@@ -108,15 +108,38 @@ function topFunction() {
     dots: true,
     responsiveClass: true, 
     responsive: { 
-        0: { items: 1, margin: 8 },
-        576: { items: 1, margin: 10  },
-        768: { items: 2, margin: 15 },
-        992: { items: 2, margin: 15 }, 
-        1200: { items: 3, margin: 15 }, 
-        1400: { items: 3 }, 
+      0: { items: 1, margin: 8 },
+      576: { items: 1, margin: 10  },
+      768: { items: 2, margin: 15 },
+      992: { items: 2, margin: 15 }, 
+      1200: { items: 3, margin: 15 }, 
+      1400: { items: 3 }, 
     } 
   });
- 
+  
+  
+   $(".teamslider").owlCarousel({
+     autoplay: true, 
+     autoplayHoverPause: true,
+     smartSpeed: 550,
+     responsiveClass: true,
+     autoplayTimeout: 10000,
+     autoplaySpeed: 3000,
+     loop: true,
+     margin: 15,
+     items: 4,
+     nav: false,
+     dots: true,
+     responsiveClass: true, 
+     responsive: { 
+         0: { items: 1, margin:8 },
+         576: { items: 2, margin: 10  },
+         738: { items: 3, margin:15 },
+         992: { items: 4, margin: 15  }, 
+         1200: { items: 4, margin: 15 },  
+          
+     } 
+   });
  
 
   

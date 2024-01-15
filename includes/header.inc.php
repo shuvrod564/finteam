@@ -7,23 +7,23 @@
             </a>
             <ul class="navbar-nav d-none d-lg-flex align-items-center">    
                 <li class="nav-item"> 
-                    <a href="#" class="nav-link">    
+                    <a href="about-us.php" class="nav-link">    
                         About Us 
-                    </a>  
+                    </a>   
                 </li>         
                 <li class="nav-item dropdown ms-lg-1 ms-xl-4"> 
                     <a href="#" class="nav-link">
                         Services 
                     </a> 
                     <ul class="dropdown-menu border-0 bg-white" aria-labelledby="drop1"> 
-                        <li class="mb-2"><a href="#" class="dropdown-item fw-medium">Accounting & Bookkeeping</a></li>
-                        <li class="mb-2"><a href="#" class="dropdown-item fw-medium">Business Start-Up & Business Development</a></li>
-                        <li class="mb-2"><a href="#" class="dropdown-item fw-medium">Company Formation</a></li>
-                        <li class="mb-2"><a href="#" class="dropdown-item fw-medium">Payroll Management</a></li>
-                        <li class="mb-2"><a href="#" class="dropdown-item fw-medium">Financial Analysis & Business Advisory Services</a></li>
-                        <li class="mb-2"><a href="#" class="dropdown-item fw-medium">VAT Services</a></li>
-                        <li class="mb-2"><a href="#" class="dropdown-item fw-medium">Tax Planning and Preparation</a></li>
-                        <li class="mb-2"><a href="#" class="dropdown-item fw-medium">Auditing Services</a></li> 
+                        <li class="mb-2"><a href="accounting-bookkeeping.php" class="dropdown-item fw-medium">Accounting & Bookkeeping</a></li>
+                        <li class="mb-2"><a href="business-start-up.php" class="dropdown-item fw-medium">Business Start-Up & Business Development</a></li>
+                        <li class="mb-2"><a href="company-formation.php" class="dropdown-item fw-medium">Company Formation</a></li>
+                        <li class="mb-2"><a href="payroll-management.php" class="dropdown-item fw-medium">Payroll Management</a></li>
+                        <li class="mb-2"><a href="financial-analysis.php" class="dropdown-item fw-medium">Financial Analysis & Business Advisory Services</a></li>
+                        <li class="mb-2"><a href="financial-analysis-vat-services.php" class="dropdown-item fw-medium">VAT Services</a></li>
+                        <li class="mb-2"><a href="auditing-services-tax-planning.php" class="dropdown-item fw-medium">Tax Planning and Preparation</a></li>
+                        <li class="mb-2"><a href="auditing-services-tax-planning.php" class="dropdown-item fw-medium">Auditing Services</a></li> 
                     </ul> 
                 </li>         
                 <li class="nav-item ms-lg-1 ms-xl-4"> 
@@ -32,12 +32,12 @@
                     </a>  
                 </li>       
                 <li class="nav-item ms-lg-1 ms-xl-4"> 
-                    <a href="#" class="nav-link"> 
+                    <a href="blogs.php" class="nav-link"> 
                         Our expertise 
                     </a>  
                 </li>       
                 <li class="nav-item ms-lg-1 ms-xl-4"> 
-                    <a href="#" class="nav-link"> 
+                    <a href="contact-us.php" class="nav-link"> 
                         Contact us 
                     </a>  
                 </li>       
@@ -67,21 +67,20 @@
         </div>
         <div class="offcanvas-body px-0">
         <ul class="links__list">
-                <li><a href="<?php echo $base_url;?>">About Us</a></li>
-                <li><a href="<?php echo $base_url;?>about.php">About Us</a></li>   
+                <li><a href="about-us.php">About Us</a></li>
                 <li> 
                     <a class="btn__link collapsed" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
                         Services
                     </a>
                     <ul class="collapse" id="collapse1"> 
-                        <li class="mb-2"><a href="#">Accounting & Bookkeeping</a></li>
-                        <li class="mb-2"><a href="#">Business Start-Up & Business Development</a></li>
-                        <li class="mb-2"><a href="#">Company Formation</a></li>
-                        <li class="mb-2"><a href="#">Payroll Management</a></li>
-                        <li class="mb-2"><a href="#">Financial Analysis & Business Advisory Services</a></li>
-                        <li class="mb-2"><a href="#">VAT Services</a></li>
-                        <li class="mb-2"><a href="#">Tax Planning and Preparation</a></li>
-                        <li class="mb-2"><a href="#">Auditing Services</a></li> 
+                    <li class="mb-2"><a href="accounting-bookkeeping.php">Accounting & Bookkeeping</a></li>
+                        <li class="mb-2"><a href="business-start-up.php">Business Start-Up & Business Development</a></li>
+                        <li class="mb-2"><a href="company-formation.php">Company Formation</a></li>
+                        <li class="mb-2"><a href="payroll-management.php">Payroll Management</a></li>
+                        <li class="mb-2"><a href="financial-analysis.php">Financial Analysis & Business Advisory Services</a></li>
+                        <li class="mb-2"><a href="financial-analysis-vat-services.php">VAT Services</a></li>
+                        <li class="mb-2"><a href="auditing-services-tax-planning.php">Tax Planning and Preparation</a></li>
+                        <li class="mb-2"><a href="auditing-services-tax-planning.php">Auditing Services</a></li> 
                     </ul>
                 </li> 
                 <li> 
@@ -89,7 +88,7 @@
                         Our expertise
                     </a>
                     <ul class="collapse" id="collapse2"> 
-                        <!-- <li><a href="<?php echo $base_url;?>honeymoon-cruise.php" class="dropdown-item fw-medium">Honeymoon Cruise</a></li>
+                        <li><a href="<?php echo $base_url;?>honeymoon-cruise.php" class="dropdown-item fw-medium">Honeymoon Cruise</a></li>
                         <li><a href="<?php echo $base_url;?>overnight-cruise.php" class="dropdown-item fw-medium">Overnight Cruise</a></li>
                         <li><a href="<?php echo $base_url;?>morning-cruise.php" class="dropdown-item fw-medium">Morning Cruise</a></li>
                         <li><a href="<?php echo $base_url;?>night-cruise.php" class="dropdown-item fw-medium">Night Cruise</a></li>
@@ -97,13 +96,11 @@
                         <li><a href="<?php echo $base_url;?>wedding-cruise.php" class="dropdown-item fw-medium">Wedding Cruise</a></li>
                         <li><a href="<?php echo $base_url;?>birthday-cruise.php" class="dropdown-item fw-medium">Birthday Cruise</a></li>
                         <li><a href="<?php echo $base_url;?>family-cruise.php" class="dropdown-item fw-medium">Family Cruise</a></li>
-                        <li><a href="<?php echo $base_url;?>bachelor-friendly-cruise.php" class="dropdown-item fw-medium">Bachelor Friendly Cruise </a></li> -->
+                        <li><a href="<?php echo $base_url;?>bachelor-friendly-cruise.php" class="dropdown-item fw-medium">Bachelor Friendly Cruise </a></li>
                     </ul>
                 </li> 
                 <li>
-                    <a class="btn__link collapsed" data-bs-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3">
-                        Contact us
-                    </a>
+                    
                     <ul class="collapse" id="collapse3"> 
                         <!-- <li><a href="<?php echo $base_url;?>houseboat-alleppey.php">Houseboat in Alleppey</a></li>
                         <li><a href="<?php echo $base_url;?>kayaking-alleppey.php">Kayaking in Alleppey</a></li>
@@ -112,7 +109,7 @@
                     </ul>
                 </li>   
                 <li><a href="<?php echo $base_url;?>blog/">Blog</a></li>
-                <li><a href="<?php echo $base_url;?>contact.php">Contact Us</a></li>
+                <li><a href="contact-us.php">Contact Us</a></li>
             </ul>
         </div>
     </div><!--.//off-canvas-->

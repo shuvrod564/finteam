@@ -368,16 +368,13 @@ ul li {
   transition: all 0.3s ease-in-out;
 }
 .navbar .nav-item .nav-link:hover {
-  color: var(--yellow);
+  color: var(--brand);
 }
 .navbar .nav-item .nav-link:hover .caret {
   transform: rotate(-180deg);
 }
-.navbar .nav-item.active .nav-link {
-  color: var(--yellow);
-}
 .navbar .nav-item.active .nav-link.btn-primary {
-  color: var(--white);
+  color: var(--brand);
   background-color: var(--dark);
 }
 .navbar .dropdown {
@@ -394,6 +391,7 @@ ul li {
   opacity: 0;
   visibility: hidden;
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
+  overflow: hidden;
 }
 .navbar .dropdown .dropdown-menu.houseboat {
   min-width: 21rem;
