@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"> 
-    <title>PAYROLL MANAGEMENT</title>
+    <title>Payroll Management</title>
  
     <!-- All Stylesheets -->
     <?php $folder='root'; include_once('includes/stylesheets.inc.php'); ?> 
@@ -31,9 +31,9 @@
         />
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity:.73"></div>
         <div class="container position-relative">
-            <h1 class="fs-1 text-white fw-semibold text-center position-relative">
+            <p class="fs-1 text-white fw-semibold text-center position-relative text-uppercase">
                 Payroll Management
-            </h1>
+            </p>
         </div><!--.//container-->
     </header>
     <!-- header section end --> 
@@ -45,20 +45,16 @@
                 <div class="col-lg-5">
                     <img 
                         class="img-fluid w-100 object-cover" 
-                        width="512" height="535" 
-                        srcset="assets/images/partners/payroll-management.webp ,
-                        assets/images/partners/contact/payroll-management.webp 1200w 
-                        "
-                        src="assets/images/partners/payroll-management.webp" 
-                        sizes=""
+                        width="512" height="535"  
+                        src="assets/images/partners/payroll-management.webp"  
                         alt="payroll-management"
                     > 
                 </div><!--.//col-->
                 <div class="col-lg-7 text-center text-lg-start">
-                    <h2 class="fs-2 text-dark fw-semibold">
-                        <span class="fs-4 d-block text-27 text-primary fw-semibold mb-3">Services</span>
+                    <span class="fs-5 d-block text-27 text-primary fw-semibold mb-2">Services</span>
+                    <h1 class="fs-2 text-dark fw-semibold mb-3">
                         Payroll Management
-                    </h2>
+                    </h1>
                     <p class="fs-15">
                         Let us handle your payroll processing, tax withholding, and direct deposits, so you can focus on growing your business while ensuring your employees are paid accurately and on time.
                     </p>

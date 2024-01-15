@@ -17,9 +17,9 @@
     <?php $folder='inside'; include_once('../includes/header.inc.php'); ?> 
 
     <!-- Header Wrapper Start -->
-    <header class="page__header d-flex align-items-center bgi py-5" style="background-image: url('<?php echo $base_url;?>blog/images/page-header-bg-image.webp');background-position: center bottom;">
-        <div class="container-fluid py-5 py-sm-5 mt-md-5">
-            
+    <header class="page__header d-flex align-items-center bgi py-5" style="background-image: url('<?php echo $base_url;?>assets/images/home/startup-meting.webp');background-position: center bottom;">
+        <div class="container py-3 py-sm-5 mt-md-5">
+            <h1 class="display-5 text-white fw-semibold text-center mb-0 pt-lg-5">Lorem ipsum dolor sit amet consectetur</h1>
         </div>
     </header>
     <!-- Header Wrapper End -->
@@ -33,8 +33,8 @@
                     <img src="images/demo/blog-banner.webp" class="img-fluid round" loading="lazy" alt="Blog Thumbnail">
                 </figure>
                  
-                <div class="date border-bottom pb-2 mb-4">22 Dec, 2022</div>
-                <h1 class="h1">Explore Alleppey Hippest Borough</h1>
+                 
+          
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus omnis atque maiores reiciendis iusto quae at molestiae eligendi, architecto odio aliquid sint ipsa natus nobis illum. Sapiente sed inventore unde odio accusamus enim excepturi debitis!</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis distinctio voluptas eos porro quam blanditiis quibusdam labore minima modi, exercitationem necessitatibus sed numquam aspernatur ratione officia doloremque architecto inventore sapiente. Fugiat enim dolorem quibusdam, expedita repellendus maxime perspiciatis distinctio nihil minus ad provident, amet placeat alias vitae! Impedit dicta iste eaque, laudantium rerum molestiae. Aspernatur?</p>
 

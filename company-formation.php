@@ -31,9 +31,9 @@
         />
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity:.73"></div>
         <div class="container position-relative">
-            <h1 class="fs-1 text-white fw-semibold text-center position-relative">
+            <p class="fs-1 text-white fw-semibold text-center position-relative">
                 COMPANY FORMATION
-            </h1>
+            </p>
         </div><!--.//container-->
     </header>
     <!-- header section end --> 
@@ -45,20 +45,17 @@
                 <div class="col-lg-5">
                     <img 
                         class="img-fluid w-100 object-cover" 
-                        width="512" height="613" 
-                        srcset="assets/images/partners/contact.webp ,
-                        assets/images/partners/contact 1200w 
-                        "
-                        src="assets/images/partners/contact.webp" 
+                        width="512" height="613"  
+                        src="assets/images/services/Company-Formation.webp" 
                         sizes=""
                         alt="contact"
                     > 
                 </div><!--.//col-->
                 <div class="col-lg-7 text-center text-lg-start">
-                    <h2 class="fs-2 text-dark fw-semibold">
-                        <span class="fs-4 d-block text-27 text-primary fw-semibold mb-3">Services</span>
+                    <span class="fs-5 d-block text-27 text-primary fw-semibold mb-2">Services</span>
+                    <h1 class="fs-2 text-dark fw-semibold mb-3">
                         Company Formation
-                    </h2>
+                    </h1>
                     <p class="fs-15">
                         Company Formation and Secretarial Service provided by our Firm offers a comprehensive and seamless solution to entrepreneurs and businesses looking to establish their ventures. With a deep understanding of legal and regulatory requirements, we assist our clients in the smooth and efficient formation of companies, ensuring compliance with all necessary documentation and procedures. Additionally, our expert secretarial services enable businesses to maintain ongoing compliance with company law, statutory filings, and corporate governance matters. By entrusting these vital tasks to us, clients can focus on core business operations, knowing that their company’s foundation and administrative functions are in capable hands.
                     </p>

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon"> 
-    <title>TAX PLANNING AND PREPARATION</title>
+    <title>Auditing Services</title>
  
     <!-- All Stylesheets -->
     <?php $folder='root'; include_once('includes/stylesheets.inc.php'); ?> 
@@ -31,9 +31,9 @@
         />
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity:.73"></div>
         <div class="container position-relative">
-            <h1 class="fs-1 text-white fw-semibold text-center position-relative">
-                TAX PLANNING AND PREPARATION
-            </h1>
+            <p class="fs-1 text-white fw-semibold text-center position-relative text-uppercase">
+                Auditing Services
+            </p>
         </div><!--.//container-->
     </header>
     <!-- header section end --> 
@@ -55,11 +55,11 @@
                     > 
                 </div><!--.//col-->
                 <div class="col-lg-7 text-center text-lg-start">
-                    <h2 class="fs-2 text-dark fw-semibold">
-                        <span class="fs-4 d-block text-27 text-primary fw-semibold mb-3">Services</span>
+                    <span class="fs-5 d-block text-27 text-primary fw-semibold mb-2">Services</span>
+                    <h1 class="fs-2 text-dark fw-semibold mb-3">
                         Auditing Services
-                    </h2>
-                    <p class="fs-15">
+                    </h1>
+                    <p>
                         Our auditing services provide an independent evaluation of your financial records, giving you and your stakeholders confidence in the accuracy and reliability of your financial statements.
                     </p>
                 </div><!--.//col-->

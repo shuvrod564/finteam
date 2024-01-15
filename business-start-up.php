@@ -31,9 +31,9 @@
         />
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity:.73"></div>
         <div class="container position-relative">
-            <h1 class="fs-1 text-white fw-semibold text-center position-relative">
+            <p class="fs-1 text-white fw-semibold text-center position-relative">
             BUSINESS START-UP & BUSINESS DEVELOPMENT
-            </h1>
+            </p>
         </div><!--.//container-->
     </header>
     <!-- header section end --> 
@@ -45,21 +45,17 @@
                 <div class="col-lg-5">
                     <img 
                         class="img-fluid w-100 object-cover" 
-                        width="512" height="613" 
-                        srcset="assets/images/partners/contact.webp ,
-                        assets/images/partners/contact 1200w 
-                        "
-                        src="assets/images/partners/contact.webp" 
-                        sizes="(max-width:576px) 520px"
+                        width="512" height="613"  
+                        src="assets/images/services/Business-Start-Up.webp"  
                         alt="contact"
                     > 
                 </div><!--.//col-->
                 <div class="col-lg-7 text-center text-lg-start">
-                    <h2 class="fs-2 text-dark fw-semibold">
-                        <span class="fs-4 d-block text-27 text-primary fw-semibold mb-3">Services</span>
+                    <span class="fs-5 d-block text-27 text-primary fw-semibold mb-2">Services</span>
+                    <h1 class="fs-2 text-dark fw-semibold mb-3">
                         Business Start-Up & Business Development
-                    </h2>
-                    <p class="fs-15">
+                    </h1>
+                    <p>
                         Our Accounting Firm is proud to offer comprehensive Business Start-Up and Development Support Services tailored to meet the unique needs of entrepreneurs and budding businesses. Our expert team of accountants and business advisors will guide you through every step of the startup process, from initial business planning and entity formation to financial projections and budgeting. We understand the challenges faced by startups and strive to provide practical solutions and strategic insights to help your business thrive. With our dedicated support and financial expertise, you can focus on turning your vision into a successful reality.
                     </p>
                 </div><!--.//col-->

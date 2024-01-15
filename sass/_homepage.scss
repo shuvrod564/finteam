@@ -51,7 +51,7 @@
 
 
 .header__wraper{
-    min-height: 80vh;
+    min-height: 700px;
     padding-top: 7rem;
     padding-bottom: 3rem;
     .fs-1{
@@ -60,7 +60,9 @@
     }
 
 }
-
+@media (max-width:575px) {
+    .header__wraper { min-height: 100vh; }
+}
 
 .scrviceTopslider {
     .owl-stage {

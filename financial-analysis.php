@@ -31,9 +31,9 @@
         />
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark" style="opacity:.73"></div>
         <div class="container position-relative">
-            <h1 class="fs-1 text-white fw-semibold text-center position-relative">
+            <p class="fs-1 text-white fw-semibold text-center position-relative text-uppercase">
                 Financial Analysis & Business Advisory Services
-            </h1>
+            </p>
         </div><!--.//container-->
     </header>
     <!-- header section end --> 
@@ -45,20 +45,17 @@
                 <div class="col-lg-5">
                     <img 
                         class="img-fluid w-100 object-cover" 
-                        width="512" height="535" 
-                        srcset="assets/images/partners/payroll-management.webp ,
-                        assets/images/partners/contact/payroll-management.webp 1200w 
-                        "
+                        width="512" height="535"  
                         src="assets/images/partners/payroll-management.webp" 
                         sizes=""
                         alt="payroll-management"
                     > 
                 </div><!--.//col-->
                 <div class="col-lg-7 text-center text-lg-start">
-                    <h2 class="fs-2 text-dark fw-semibold">
-                        <span class="fs-4 d-block text-27 text-primary fw-semibold mb-3">Services</span>
+                    <span class="fs-5 d-block text-27 text-primary fw-semibold mb-2">Services</span>
+                    <h1 class="fs-2 text-dark fw-semibold mb-3">
                         Financial Analysis & Business Advisory Services
-                    </h2>
+                    </h1>
                     <p class="fs-15">
                         Gain valuable insights into your business’s financial performance with our in-depth financial analysis. We’ll identify areas for improvement and recommend strategies to help you achieve your financial goals. Benefit from our strategic business advisory services that address specific challenges, identify opportunities, and pave the way for long-term success.
                     </p>

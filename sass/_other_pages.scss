@@ -1,12 +1,17 @@
 
 .header__section{
-    min-height: 50vh;
+    min-height: 350px;
     letter-spacing: 2px;
+    padding-top: 5rem; 
+}
+@media (max-width:575px) {
+    .header__section {
+        min-height: 281px; 
+        padding-bottom: 2rem;
+      }
 }
 
-
-.btn__service{
-    width: 10rem;
+.btn__service{ 
     background-color: var(--brand);
     color: #fff;
     border: var(--brand);
@@ -17,7 +22,7 @@
     box-shadow: 0px 3px 6px #00000029;
     border: 1px solid #CBCBCB;
     border-radius: 12px;
-    padding: 1.5rem 1.25rem;
+    padding: 1.125rem 1.25rem;
     
     &::placeholder{
         color: rgba(52, 52, 52, 0.2);

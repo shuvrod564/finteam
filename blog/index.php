@@ -17,9 +17,9 @@
     <?php $folder='inside'; include_once('../includes/header.inc.php'); ?> 
 
     <!-- Header Wrapper Start -->
-    <header class="page__header d-flex align-items-center bgi py-5" style="background-image: url('<?php echo $base_url;?>blog/images/page-header-bg-image.webp');background-position: center bottom;">
+    <header class="page__header d-flex align-items-center bgi py-5" style="background-image: url('<?php echo $base_url;?>assets/images/home/startup-meting.webp');background-position: center bottom;">
         <div class="container-fluid py-3 py-sm-5 mt-md-5">
-            <h1 class="h1 text-white text-center mb-0 pt-lg-5">Blogs</h1>
+            <h1 class="display-4 text-white fw-semibold text-center mb-0 pt-lg-5 text-uppercase">Blogs</h1>
         </div>
     </header>
     <!-- Header Wrapper End -->
@@ -27,136 +27,146 @@
     <!-- Blog Wrapper Start -->
     <section class="py-5">
         <div class="container">
-            <div class="row g-3">
-                <div class="col-md-4 col-sm-6">
-                    <div class="blog__card bg-white round overflow-hidden p-2 transition">
-                        <a href="detail.php" class="d-block thumbnail">
-                            <img src="<?php echo $base_url;?>assets/images/blog/blog-01.webp" class="img-fluid round w-100" width="404" height="207" alt="thumbnail">
+            <div class="row g-3 g-xl-4">
+                <div class="col-lg-4">
+                    <div class=" border bg-white p-2 p-sm-3 rounded-3">
+                        <a href="detail.php">
+                            <img 
+                                class="img-fluid w-100 rounded-3" 
+                                width="377" height="241" 
+                                src="<?php echo $base_url;?>assets/images/blog/blog-img-01.webp" 
+                                alt="blog-img"
+                                >  
                         </a>
-                        <div class="caption bg-white p-3 pt-4">
-                            <h4 class="lead-lg title">
-                                <a href="detail.php">Explore Alleppey Hippest Borough</a>
-                            </h4>
-                            <p class="desc small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, reprehenderit assumenda dignissimos laudantium dicta commodi. Sapiente itaque rem ullam quaerat id est atque delectus quibusdam.</p>
-                            <a href="detail.php" class="fw-medium" aria-label="Read More">Read More</a>
+                        <div class="pt-2"> 
+                            <p class="mb-3 opacity-25 fw-semibold">23 Aug 2023</p>
+                            <h3 class="lead fw-bold">
+                                <a href="detail.php" class="link">
+                                    Strategies to Stay Calm and Make Informed Decisions
+                                </a>
+                            </h3>
+                            <p class="fs-15 ellipsis-3">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
+                            </p>
                         </div>
                     </div>
-                </div><!--.//col--> 
-                <div class="col-md-4 col-sm-6">
-                    <div class="blog__card bg-white round overflow-hidden p-2 transition">
-                        <a href="detail.php" class="d-block thumbnail">
-                            <img src="<?php echo $base_url;?>assets/images/blog/blog-02.webp" class="img-fluid round w-100" width="404" height="207" alt="thumbnail">
+                </div><!--//.col--> 
+                <div class="col-lg-4">
+                    <div class=" border bg-white p-2 p-sm-3 rounded-3">
+                        <a href="detail.php">
+                            <img 
+                                class="img-fluid w-100 rounded-3" 
+                                width="377" height="241" 
+                                src="<?php echo $base_url;?>assets/images/blog/blog-img-02.webp" 
+                                alt="blog-img"
+                                >  
                         </a>
-                        <div class="caption bg-white p-3 pt-4">
-                            <h4 class="lead-lg title">
-                                <a href="detail.php">Explore Alleppey Hippest Borough</a>
-                            </h4>
-                            <p class="desc small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, reprehenderit assumenda dignissimos laudantium dicta commodi. Sapiente itaque rem ullam quaerat id est atque delectus quibusdam.</p>
-                            <a href="detail.php" class="fw-medium" aria-label="Read More">Read More</a>
+                        <div class="pt-2"> 
+                            <p class="mb-3 opacity-25 fw-semibold">23 Aug 2023</p>
+                            <h3 class="lead fw-bold">
+                                <a href="detail.php" class="link">
+                                    Strategies to Stay Calm and Make Informed Decisions
+                                </a>
+                            </h3>
+                            <p class="fs-15 ellipsis-3">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
+                            </p>
                         </div>
                     </div>
-                </div><!--.//col--> 
-                <div class="col-md-4 col-sm-6">
-                    <div class="blog__card bg-white round overflow-hidden p-2 transition">
-                        <a href="detail.php" class="d-block thumbnail">
-                            <img src="<?php echo $base_url;?>assets/images/blog/blog-03.webp" class="img-fluid round w-100" width="404" height="207" alt="thumbnail">
+                </div><!--//.col--> 
+                <div class="col-lg-4">
+                    <div class=" border bg-white p-2 p-sm-3 rounded-3">
+                        <a href="detail.php">
+                            <img 
+                                class="img-fluid w-100 rounded-3" 
+                                width="377" height="241" 
+                                src="<?php echo $base_url;?>assets/images/blog/blog-img-03.webp" 
+                                alt="blog-img"
+                                >  
                         </a>
-                        <div class="caption bg-white p-3 pt-4">
-                            <h4 class="lead-lg title">
-                                <a href="detail.php">Explore Alleppey Hippest Borough</a>
-                            </h4>
-                            <p class="desc small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, reprehenderit assumenda dignissimos laudantium dicta commodi. Sapiente itaque rem ullam quaerat id est atque delectus quibusdam.</p>
-                            <a href="detail.php" class="fw-medium" aria-label="Read More">Read More</a>
+                        <div class="pt-2"> 
+                            <p class="mb-3 opacity-25 fw-semibold">23 Aug 2023</p>
+                            <h3 class="lead fw-bold">
+                                <a href="detail.php" class="link">
+                                    Strategies to Stay Calm and Make Informed Decisions
+                                </a>
+                            </h3>
+                            <p class="fs-15 ellipsis-3">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
+                            </p>
                         </div>
                     </div>
-                </div><!--.//col--> 
-                <div class="col-md-4 col-sm-6">
-                    <div class="blog__card bg-white round overflow-hidden p-2 transition">
-                        <a href="detail.php" class="d-block thumbnail">
-                            <img src="<?php echo $base_url;?>assets/images/blog/blog-04.webp" class="img-fluid round w-100" width="404" height="207" alt="thumbnail">
+                </div><!--//.col--> 
+                <div class="col-lg-4">
+                    <div class=" border bg-white p-2 p-sm-3 rounded-3">
+                        <a href="detail.php">
+                            <img 
+                                class="img-fluid w-100 rounded-3" 
+                                width="377" height="241" 
+                                src="<?php echo $base_url;?>assets/images/blog/blog-img-01.webp" 
+                                alt="blog-img"
+                                >  
                         </a>
-                        <div class="caption bg-white p-3 pt-4">
-                            <h4 class="lead-lg title">
-                                <a href="detail.php">Explore Alleppey Hippest Borough</a>
-                            </h4>
-                            <p class="desc small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, reprehenderit assumenda dignissimos laudantium dicta commodi. Sapiente itaque rem ullam quaerat id est atque delectus quibusdam.</p>
-                            <a href="detail.php" class="fw-medium" aria-label="Read More">Read More</a>
+                        <div class="pt-2"> 
+                            <p class="mb-3 opacity-25 fw-semibold">23 Aug 2023</p>
+                            <h3 class="lead fw-bold">
+                                <a href="detail.php" class="link">
+                                    Strategies to Stay Calm and Make Informed Decisions
+                                </a>
+                            </h3>
+                            <p class="fs-15 ellipsis-3">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
+                            </p>
                         </div>
                     </div>
-                </div><!--.//col--> 
-                <div class="col-md-4 col-sm-6">
-                    <div class="blog__card bg-white round overflow-hidden p-2 transition">
-                        <a href="detail.php" class="d-block thumbnail">
-                            <img src="<?php echo $base_url;?>assets/images/blog/blog-01.webp" class="img-fluid round w-100" width="404" height="207" alt="thumbnail">
+                </div><!--//.col--> 
+                <div class="col-lg-4">
+                    <div class=" border bg-white p-2 p-sm-3 rounded-3">
+                        <a href="detail.php">
+                            <img 
+                                class="img-fluid w-100 rounded-3" 
+                                width="377" height="241" 
+                                src="<?php echo $base_url;?>assets/images/blog/blog-img-02.webp" 
+                                alt="blog-img"
+                                >  
                         </a>
-                        <div class="caption bg-white p-3 pt-4">
-                            <h4 class="lead-lg title">
-                                <a href="detail.php">Explore Alleppey Hippest Borough</a>
-                            </h4>
-                            <p class="desc small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, reprehenderit assumenda dignissimos laudantium dicta commodi. Sapiente itaque rem ullam quaerat id est atque delectus quibusdam.</p>
-                            <a href="detail.php" class="fw-medium" aria-label="Read More">Read More</a>
+                        <div class="pt-2"> 
+                            <p class="mb-3 opacity-25 fw-semibold">23 Aug 2023</p>
+                            <h3 class="lead fw-bold">
+                                <a href="detail.php" class="link">
+                                    Strategies to Stay Calm and Make Informed Decisions
+                                </a>
+                            </h3>
+                            <p class="fs-15 ellipsis-3">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
+                            </p>
                         </div>
                     </div>
-                </div><!--.//col--> 
-                <div class="col-md-4 col-sm-6">
-                    <div class="blog__card bg-white round overflow-hidden p-2 transition">
-                        <a href="detail.php" class="d-block thumbnail">
-                            <img src="<?php echo $base_url;?>assets/images/blog/blog-02.webp" class="img-fluid round w-100" width="404" height="207" alt="thumbnail">
+                </div><!--//.col--> 
+                <div class="col-lg-4">
+                    <div class=" border bg-white p-2 p-sm-3 rounded-3">
+                        <a href="detail.php">
+                            <img 
+                                class="img-fluid w-100 rounded-3" 
+                                width="377" height="241" 
+                                src="<?php echo $base_url;?>assets/images/blog/blog-img-03.webp" 
+                                alt="blog-img"
+                                >  
                         </a>
-                        <div class="caption bg-white p-3 pt-4">
-                            <h4 class="lead-lg title">
-                                <a href="detail.php">Explore Alleppey Hippest Borough</a>
-                            </h4>
-                            <p class="desc small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, reprehenderit assumenda dignissimos laudantium dicta commodi. Sapiente itaque rem ullam quaerat id est atque delectus quibusdam.</p>
-                            <a href="detail.php" class="fw-medium" aria-label="Read More">Read More</a>
+                        <div class="pt-2"> 
+                            <p class="mb-3 opacity-25 fw-semibold">23 Aug 2023</p>
+                            <h3 class="lead fw-bold">
+                                <a href="detail.php" class="link">
+                                    Strategies to Stay Calm and Make Informed Decisions
+                                </a>
+                            </h3>
+                            <p class="fs-15 ellipsis-3">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,
+                            </p>
                         </div>
                     </div>
-                </div><!--.//col--> 
-                <div class="col-md-4 col-sm-6">
-                    <div class="blog__card bg-white round overflow-hidden p-2 transition">
-                        <a href="detail.php" class="d-block thumbnail">
-                            <img src="<?php echo $base_url;?>assets/images/blog/blog-03.webp" class="img-fluid round w-100" width="404" height="207" alt="thumbnail">
-                        </a>
-                        <div class="caption bg-white p-3 pt-4">
-                            <h4 class="lead-lg title">
-                                <a href="detail.php">Explore Alleppey Hippest Borough</a>
-                            </h4>
-                            <p class="desc small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, reprehenderit assumenda dignissimos laudantium dicta commodi. Sapiente itaque rem ullam quaerat id est atque delectus quibusdam.</p>
-                            <a href="detail.php" class="fw-medium" aria-label="Read More">Read More</a>
-                        </div>
-                    </div>
-                </div><!--.//col--> 
-                <div class="col-md-4 col-sm-6">
-                    <div class="blog__card bg-white round overflow-hidden p-2 transition">
-                        <a href="detail.php" class="d-block thumbnail">
-                            <img src="<?php echo $base_url;?>assets/images/blog/blog-04.webp" class="img-fluid round w-100" width="404" height="207" alt="thumbnail">
-                        </a>
-                        <div class="caption bg-white p-3 pt-4">
-                            <h4 class="lead-lg title">
-                                <a href="detail.php">Explore Alleppey Hippest Borough</a>
-                            </h4>
-                            <p class="desc small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, reprehenderit assumenda dignissimos laudantium dicta commodi. Sapiente itaque rem ullam quaerat id est atque delectus quibusdam.</p>
-                            <a href="detail.php" class="fw-medium" aria-label="Read More">Read More</a>
-                        </div>
-                    </div>
-                </div><!--.//col--> 
-                <div class="col-md-4 col-sm-6">
-                    <div class="blog__card bg-white round overflow-hidden p-2 transition">
-                        <a href="detail.php" class="d-block thumbnail">
-                            <img src="<?php echo $base_url;?>assets/images/blog/blog-01.webp" class="img-fluid round w-100" width="404" height="207" alt="thumbnail">
-                        </a>
-                        <div class="caption bg-white p-3 pt-4">
-                            <h4 class="lead-lg title">
-                                <a href="detail.php">Explore Alleppey Hippest Borough</a>
-                            </h4>
-                            <p class="desc small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, reprehenderit assumenda dignissimos laudantium dicta commodi. Sapiente itaque rem ullam quaerat id est atque delectus quibusdam.</p>
-                            <a href="detail.php" class="fw-medium" aria-label="Read More">Read More</a>
-                        </div>
-                    </div>
-                </div><!--.//col--> 
-                
-                 
-            </div><!--.//row-->
+                </div><!--//.col--> 
+            </div><!--//.row--> 
 
             <!-- Pagination -->
             <?php 

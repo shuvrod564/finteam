@@ -56,33 +56,33 @@
                 </div><!--.//col-->
                 <div class="col-lg-7 text-center text-lg-start">
                     <h2 class="fs-2 text-dark fw-semibold">
-                        <span class="fs-4 d-block text-27 text-primary fw-semibold mb-3">SAY HELOO !</span>
+                        <span class="fs-6 d-block text-27 text-primary fw-semibold">SAY HELOO !</span>
                         We’d pleased to hear
                     </h2>
                     <form class="form-bg mt-4" id="contact-form" method="post" action="contact-from">
                         <div class="messages"></div>
-                        <div class="controls row g-3">
-                            <div class="col-6 pb-4 mb-1">
+                        <div class="controls row g-4">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <input id="form_name" type="text" name="name" class="form-control" placeholder="Name">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                            <div class="col-6 pb-4 mb-1">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <input id="form_phone" type="text" name="phone number" class="form-control"
                                     placeholder="Phone Number">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                            <div class="col-6 pb-4 mb-1">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <input id="form_email" type="email" name="email" class="form-control"
                                     placeholder="Email" required="required" data-error="Valid email is required.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
-                            <div class="col-6 pb-4 mb-1">
+                            <div class="col-md-6">
                                 <div class="form-group">
                                     <input id="form_services" type="services" name="services" class="form-control"
                                     placeholder="Services" required="required" data-error="Valid services is required.">
@@ -90,16 +90,16 @@
                                 </div>
                             </div>
                             <div class="col-12 mb-1">
-                                <div class="form-group pb-4">
+                                <div class="form-group">
                                     <textarea id="form_message" name="any message" class="form-control"
                                     placeholder="Any Message" rows="4"></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <a href="#" class="btn__service btn btn-white px-4 height z-index rounded-pill" aria-label="Enquiry Now">
+                                <button type="submit" class="btn__service btn btn-white px-5 height lg z-index rounded-pill" aria-label="Enquiry Now">
                                     <span class="fw-semibold">Enquiry Now</span> 
-                                </a>
+                                </button>
                             </div>
                         </div>
                     </form>

@@ -46,17 +46,13 @@
                     <img 
                         class="img-fluid w-100 object-cover" 
                         width="512" height="613" 
-                        srcset="assets/images/partners/contact.webp ,
-                        assets/images/partners/contact 1200w 
-                        "
-                        src="assets/images/partners/contact.webp" 
-                        sizes=""
+                        src="assets/images/services/Accounting-Bookkeeping.webp"  
                         alt="contact"
                     > 
                 </div><!--.//col-->
                 <div class="col-lg-7 text-center text-lg-start">
-                    <h2 class="fs-2 text-dark fw-semibold">
-                        <span class="fs-4 d-block text-27 text-primary fw-semibold mb-3">Services</span>
+                    <span class="fs-5 d-block text-27 text-primary fw-semibold mb-2">Services</span>
+                    <h2 class="fs-2 text-dark fw-semibold mb-3">
                         Accounting & Bookkeeping
                     </h2>
                     <p class="fs-15">

@@ -18,7 +18,7 @@
                         <div class="d-flex gap-3 align-items-center pb-4">
                            <img src="assets/images/icon/tell-white.webp" class="img-fluid" width="27" height="27" alt="tell">
                            <div class="col"> 
-                               <a class="text-white fw-semibold lead" href="#">(+91) 998-765-4321</a>
+                               <a class="text-white fw-semibold lead" href="tel:+447872908711">+44 7872 908711</a>
                            </div>
                         </div>
                         <div class="d-flex gap-3 align-items-center">
@@ -36,24 +36,24 @@
                 <div class="col-xl-4 col-lg-6 col-md-6">
                     <p class="lead fw-bold text-white">Services</p>
                     <ul class="links text-white">
-                        <li class="mb-2"><a href="#">Accounting & Bookkeeping</a></li>
-                        <li class="mb-2"><a href="#">Business Start-Up & Business Development</a></li>
-                        <li class="mb-2"><a href="#">Company Formation</a></li>
-                        <li class="mb-2"><a href="#">Payroll Management</a></li>
-                        <li class="mb-2"><a href="#">Financial Analysis & Business Advisory Services</a></li>
-                        <li class="mb-2"><a href="#">VAT Services</a></li>
-                        <li class="mb-2"><a href="#">Tax Planning and Preparation</a></li>
-                        <li class="mb-2"><a href="#">Auditing Services</a></li>
+                        <li class="mb-2"><a href="<?php echo $base_url;?>accounting-bookkeeping.php">Accounting & Bookkeeping</a></li>
+                        <li class="mb-2"><a href="<?php echo $base_url;?>business-start-up.php">Business Start-Up & Business Development</a></li>
+                        <li class="mb-2"><a href="<?php echo $base_url;?>company-formation.php">Company Formation</a></li>
+                        <li class="mb-2"><a href="<?php echo $base_url;?>payroll-management.php">Payroll Management</a></li>
+                        <li class="mb-2"><a href="<?php echo $base_url;?>financial-analysis.php">Financial Analysis & Business Advisory Services</a></li>
+                        <li class="mb-2"><a href="<?php echo $base_url;?>vat-services.php">VAT Services</a></li>
+                        <li class="mb-2"><a href="<?php echo $base_url;?>tax-planning.php">Tax Planning and Preparation</a></li>
+                        <li class="mb-2"><a href="<?php echo $base_url;?>auditing-services-tax-planning.php">Auditing Services</a></li> 
                     </ul>
                 </div><!--.//col-->
                 <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
                     <p class="lead fw-semibold text-white">Company</p>        
                     <ul class="links text-white"> 
-                        <li class="mb-2"><a href="#">About us</a></li>
+                        <li class="mb-2"><a href="<?php echo $base_url;?>about-us.php">About us</a></li>
                         <li class="mb-2"><a href="#">Careers</a></li>
                         <li class="mb-2"><a href="#">Press</a></li>
                         <li class="mb-2"><a href="#">News</a></li>
-                        <li class="mb-2"><a href="#">Contact</a></li>      
+                        <li class="mb-2"><a href="<?php echo $base_url;?>contact-us.php">Contact</a></li>      
                         
                     </ul>
                 </div><!--.//col-->
@@ -61,7 +61,7 @@
                     <div class="ps-lg-5"> 
                         <p class="lead fw-semibold text-white">Resources</p>
                         <ul class="links text-white"> 
-                            <li class="mb-2"><a href="#">Blog</a></li>
+                            <li class="mb-2"><a href="<?php echo $base_url;?>blog/">Blog</a></li>
                             <li class="mb-2"><a href="#">Help</a></li>
                             <li class="mb-2"><a href="#">center</a></li>
                             <li class="mb-2"><a href="#">Tutorials</a></li>
