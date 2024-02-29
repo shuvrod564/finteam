@@ -58,6 +58,9 @@
                     <p class="fs-15">
                         Our team of experienced and dedicated VAT specialists are equipped to handle all aspects of VAT compliance, from registration and filing to record-keeping and advisory services. With a deep understanding of local and international VAT regulations, we ensure timely and accurate submissions, helping clients minimize tax liabilities and avoid potential penalties. By entrusting us with their VAT responsibilities, businesses can focus on their core operations, knowing that their VAT matters are in capable hands. We strive to provide personalized solutions tailored to each client’s unique needs, fostering long-term partnerships built on trust and excellence in VAT management.
                     </p>
+                    <div class="mt-4">
+                        <a href="contact-us.php" class="btn btn-primary height rounded-pill px-4">Know More</a>
+                    </div>
                 </div><!--.//col-->
             </div>
         </div>

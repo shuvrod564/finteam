@@ -62,6 +62,9 @@
                     <p>
                         Our auditing services provide an independent evaluation of your financial records, giving you and your stakeholders confidence in the accuracy and reliability of your financial statements.
                     </p>
+                    <div class="mt-4">
+                        <a href="contact-us.php" class="btn btn-primary height rounded-pill px-4">Know More</a>
+                    </div>
                 </div><!--.//col-->
             </div>
         </div>

@@ -62,6 +62,9 @@
                     <p class="fs-15">
                         Minimize your tax liabilities and maximize your returns with our tax planning and preparation services. Our tax experts stay up-to-date with the latest tax laws and regulations to ensure you are in compliance and take advantage of all available deductions.
                     </p>
+                    <div class="mt-4">
+                        <a href="contact-us.php" class="btn btn-primary height rounded-pill px-4">Know More</a>
+                    </div>
                 </div><!--.//col-->
             </div>
         </div>

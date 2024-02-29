@@ -21,7 +21,7 @@
             </div><!--//.col-->
             <div class="col-lg-6">
                 <div class="btns d-flex flex-wrap gap-3 justify-content-center">
-                    <a href="#" class="btn__service btn btn-white px-4 height z-index rounded-pill" aria-label="ENQUIRY NOW">
+                    <a href="<?php echo $base_url;?>contact-us.php" class="btn__service btn btn-white px-4 height z-index rounded-pill" aria-label="ENQUIRY NOW">
                         <span class="fw-semibold">ENQUIRY NOW</span> 
                     </a> 
                     <a href="tel:+919987654321" class="btn btn-outline-white px-4 height py-1 rounded-pill" aria-label="(+91) 998-765-4321"> 

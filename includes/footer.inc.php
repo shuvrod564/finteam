@@ -12,19 +12,24 @@
                         <div class="d-flex gap-3 align-items-center pb-4">
                            <img src="assets/images/icon/email.webp" class="img-fluid" width="26" height="20" alt="email">
                            <div class="col"> 
-                               <a class="text-white fw-semibold lead text-lowercase" href="#">hello@finteam.com</a>
+                               <a class="text-white fw-semibold lead text-lowercase" href="mailto:hello@finteam.com">hello@finteam.com</a>
                            </div>
                         </div>
                         <div class="d-flex gap-3 align-items-center pb-4">
                            <img src="assets/images/icon/tell-white.webp" class="img-fluid" width="27" height="27" alt="tell">
                            <div class="col"> 
-                               <a class="text-white fw-semibold lead" href="tel:+447872908711">+44 7872 908711</a>
+                               <a class="text-white fw-semibold lead" href="tel:+447872908711">+44 7872 908711</a> <br>
+                               <a class="text-white fw-semibold lead" href="tel:+447423005395">+44 7423 005395</a>
                            </div>
                         </div>
                         <div class="d-flex gap-3 align-items-center">
                            <img src="assets/images/icon/location-white.webp" class="img-fluid" width="22" height="30" alt="location">
                            <div class="col"> 
-                               <address class="text-white fw-semibold mb-0 lead-sm">4140 Parker Rd. Allentown, India 56022</address>
+                               <address class="text-white fw-semibold mb-0 lead-sm">
+                                    51 Midhurst Avenue, Croydon, <br>
+                                    England, 
+                                    CR0 3PS
+                                </address>
                            </div>
                         </div>
                     </div>
@@ -42,8 +47,7 @@
                         <li class="mb-2"><a href="<?php echo $base_url;?>payroll-management.php">Payroll Management</a></li>
                         <li class="mb-2"><a href="<?php echo $base_url;?>financial-analysis.php">Financial Analysis & Business Advisory Services</a></li>
                         <li class="mb-2"><a href="<?php echo $base_url;?>vat-services.php">VAT Services</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>tax-planning.php">Tax Planning and Preparation</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>auditing-services-tax-planning.php">Auditing Services</a></li> 
+                        <li class="mb-2"><a href="<?php echo $base_url;?>tax-planning.php">Tax Planning and Preparation</a></li> 
                     </ul>
                 </div><!--.//col-->
                 <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
@@ -96,7 +100,7 @@
                     <div class="col-md-12"> 
                         <div class="text-center mb-0 text-white fw-medium">
                             &copy; <?php echo date('Y'); ?> fin team | Designed by
-                            <a href="#" target="_blank" class="d-inline text-white">
+                            <a href="https://techpullers.com/website-dev.php" target="_blank" class="d-inline text-white">
                                  Techpullers
                             </a>
                         </div>

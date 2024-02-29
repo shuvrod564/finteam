@@ -28,3 +28,14 @@
         color: rgba(52, 52, 52, 0.2);
     }
 }
+
+
+.blogsCarousel.content {
+    .owl-stage {
+        display: flex;
+
+        .owl-item {
+            display: flex;
+        }
+    }
+}

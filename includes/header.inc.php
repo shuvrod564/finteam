@@ -3,16 +3,16 @@
     <nav class="navbar navbar-expand-lg smart-scroll postion-relative" id="mainNav">
         <div class="container">   
             <a href="<?php echo $base_url;?>" class="navbar-brand p-0 m-0 d-inline-block" aria-label="Kerala Cruises">
-                <img src="<?php echo $base_url;?>assets/images/logo-01.svg" width="166" height="36" class="w-auto" alt="logo">
+                <img src="<?php echo $base_url;?>assets/images/finteam-logo.svg" width="166" height="36" class="w-auto" alt="logo">
             </a>
             <ul class="navbar-nav d-none d-lg-flex align-items-center">    
                 <li class="nav-item"> 
-                    <a href="about-us.php" class="nav-link">    
+                    <a href="<?php echo $base_url;?>about-us.php" class="nav-link">    
                         About Us 
                     </a>   
                 </li>         
                 <li class="nav-item dropdown ms-lg-1 ms-xl-4"> 
-                    <a href="#" class="nav-link" id="drop1"
+                    <a href="#" class="nav-link dropdown-toggle" id="drop1"
                     data-bs-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false">
@@ -26,17 +26,12 @@
                         <li class="mb-2"><a href="<?php echo $base_url;?>financial-analysis.php" class="dropdown-item fw-medium">Financial Analysis & Business Advisory Services</a></li>
                         <li class="mb-2"><a href="<?php echo $base_url;?>vat-services.php" class="dropdown-item fw-medium">VAT Services</a></li>
                         <li class="mb-2"><a href="<?php echo $base_url;?>tax-planning.php" class="dropdown-item fw-medium">Tax Planning and Preparation</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>auditing-services-tax-planning.php" class="dropdown-item fw-medium">Auditing Services</a></li> 
+                        <li class="mb-2"><a href="<?php echo $base_url;?>auditing-services.php" class="dropdown-item fw-medium">Auditing Services</a></li> 
                     </ul> 
-                </li>         
+                </li>          
                 <li class="nav-item ms-lg-1 ms-xl-4"> 
-                    <a href="#" class="nav-link"> 
-                        Your partner 
-                    </a>  
-                </li>       
-                <li class="nav-item ms-lg-1 ms-xl-4"> 
-                    <a href="#" class="nav-link"> 
-                        Our expertise 
+                    <a href="<?php echo $base_url;?>blog/" class="nav-link"> 
+                        Blog
                     </a>  
                 </li>       
                 <li class="nav-item ms-lg-1 ms-xl-4"> 
@@ -49,7 +44,7 @@
             
             <div class="d-inline-flex align-items-center">
 
-                <a href="#" class="nav-link btn btn-white px-4 height rounded-pill d-none d-sm-inline-flex" aria-label="Enquiry Now">
+                <a href="contact-us.php" class="nav-link btn btn-white px-4 height rounded-pill d-none d-sm-inline-flex" aria-label="Enquiry Now">
                     Enquiry Now
                 </a>  
                 
@@ -71,7 +66,7 @@
         </div>
         <div class="offcanvas-body px-0">
         <ul class="links__list">
-                <li><a href="about-us.php">About Us</a></li>
+                <li><a href="<?php echo $base_url;?>about-us.php">About Us</a></li>
                 <li> 
                     <a class="btn__link collapsed" data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
                         Services
@@ -83,27 +78,11 @@
                         <li class="mb-2"><a href="<?php echo $base_url;?>payroll-management.php">Payroll Management</a></li>
                         <li class="mb-2"><a href="<?php echo $base_url;?>financial-analysis.php">Financial Analysis & Business Advisory Services</a></li>
                         <li class="mb-2"><a href="<?php echo $base_url;?>vat-services.php">VAT Services</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>tax-planning.php">Tax Planning and Preparation</a></li>
-                        <li class="mb-2"><a href="<?php echo $base_url;?>auditing-services-tax-planning.php">Auditing Services</a></li> 
-                    </ul>
-                </li> 
-                <li> 
-                    <a class="btn__link collapsed" data-bs-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2">
-                        Our expertise
-                    </a>
-                     
-                </li> 
-                <li>
-                    
-                    <ul class="collapse" id="collapse3"> 
-                        <!-- <li><a href="<?php echo $base_url;?>houseboat-alleppey.php">Houseboat in Alleppey</a></li>
-                        <li><a href="<?php echo $base_url;?>kayaking-alleppey.php">Kayaking in Alleppey</a></li>
-                        <li><a href="<?php echo $base_url;?>shikara-ride-alleppey.php">Shikara Ride in Alleppey</a></li>
-                        <li><a href="<?php echo $base_url;?>canoeing-alleppey.php"> Canoeing in Alleppey</a></li>  -->
+                        <li class="mb-2"><a href="<?php echo $base_url;?>tax-planning.php">Tax Planning and Preparation</a></li> 
                     </ul>
                 </li>   
                 <li><a href="<?php echo $base_url;?>blog/">Blog</a></li>
-                <li><a href="contact-us.php">Contact Us</a></li>
+                <li><a href="<?php echo $base_url;?>contact-us.php">Contact Us</a></li>
             </ul>
         </div>
     </div><!--.//off-canvas-->

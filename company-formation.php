@@ -59,6 +59,9 @@
                     <p class="fs-15">
                         Company Formation and Secretarial Service provided by our Firm offers a comprehensive and seamless solution to entrepreneurs and businesses looking to establish their ventures. With a deep understanding of legal and regulatory requirements, we assist our clients in the smooth and efficient formation of companies, ensuring compliance with all necessary documentation and procedures. Additionally, our expert secretarial services enable businesses to maintain ongoing compliance with company law, statutory filings, and corporate governance matters. By entrusting these vital tasks to us, clients can focus on core business operations, knowing that their company’s foundation and administrative functions are in capable hands.
                     </p>
+                    <div class="mt-4">
+                        <a href="contact-us.php" class="btn btn-primary height rounded-pill px-4">Know More</a>
+                    </div>
                 </div><!--.//col-->
             </div>
         </div>
