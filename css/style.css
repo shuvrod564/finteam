@@ -28,11 +28,16 @@
 }
 
 .header__wraper {
-  min-height: 700px;
+  min-height: 100vh;
   padding-top: 7rem;
   padding-bottom: 3rem;
 }
 
+@media (min-width: 1920px) {
+  .header__wraper {
+    min-height: 1080px;
+  }
+}
 @media (min-width: 992px) {
   .header__wraper .fs-1 {
     letter-spacing: 3px;

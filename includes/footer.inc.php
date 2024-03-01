@@ -12,7 +12,7 @@
                         <div class="d-flex gap-3 align-items-center pb-4">
                            <img src="assets/images/icon/email.webp" class="img-fluid" width="26" height="20" alt="email">
                            <div class="col"> 
-                               <a class="text-white fw-semibold lead text-lowercase" href="mailto:hello@finteam.com">hello@finteam.com</a>
+                               <a class="text-white fw-semibold lead text-lowercase" href="mailto:hello@finteam.co.uk">hello@finteam.co.uk</a>
                            </div>
                         </div>
                         <div class="d-flex gap-3 align-items-center pb-4">
