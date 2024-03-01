@@ -8,12 +8,12 @@
                     <img 
                         class="img-fluid w-100 rounded-3" 
                         width="377" height="241" 
-                        src="assets/images/blog/blog-img-01.webp" 
+                        src="<?php echo $base_url;?>blog/images/small-and-medium-businesses-sm.webp" 
                         alt="Small and Medium Businesses: Significance of Management Information Systems"
                     >  
                 </a>
                 <div class="pt-2"> 
-                    <p class="mb-3 opacity-25 fw-semibold">23 Aug 2023</p>
+                    <p class="mb-3 opacity-25 fw-semibold">February 20, 2024</p>
                     <h3 class="lead fw-semibold">
                         <a href="blog/small-and-medium-businesses.php" class="link">
                             Small and Medium Businesses: Significance of Management Information Systems

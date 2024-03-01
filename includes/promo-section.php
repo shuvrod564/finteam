@@ -21,12 +21,17 @@
             </div><!--//.col-->
             <div class="col-lg-6">
                 <div class="btns d-flex flex-wrap gap-3 justify-content-center">
-                    <a href="<?php echo $base_url;?>contact-us.php" class="btn__service btn btn-white px-4 height z-index rounded-pill" aria-label="ENQUIRY NOW">
+                    <a href="<?php echo $base_url;?>contact-us.php" class="btn__service btn btn-white px-5 height z-index rounded-pill" aria-label="ENQUIRY NOW">
                         <span class="fw-semibold">ENQUIRY NOW</span> 
                     </a> 
-                    <a href="tel:+919987654321" class="btn btn-outline-white px-4 height py-1 rounded-pill" aria-label="(+91) 998-765-4321"> 
-                        <span class="fw-semibold">(+91) 998-765-4321</span> 
-                    </a>  
+                    <div class="d-flex flex-wrap  justify-content-center">  
+                        <a href="tel:+447872908711" class="fs-3 text-white fw-semibold mx-2"> 
+                            <span class="fw-semibold">+44 7872 908711</span> 
+                        </a>  
+                        <a href="tel:+447423005395" class="fs-3 text-white fw-semibold mx-2"> 
+                            <span class="fw-semibold">+44 7423 005395</span> 
+                        </a>  
+                    </div>
                 </div>
             </div><!--//.col-->
         </div><!--//.row-->
